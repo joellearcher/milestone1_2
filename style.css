@@ -14,7 +14,7 @@ h3 {
   font-family: Helvetica, Arial, sans-serif;
   justify-content: center;
   padding: 10px;
-  background-color: #ffb67f;
+  background-color: #fe6337;
   color: white;
   font-weight: bold;
 }
@@ -23,10 +23,21 @@ li {
   font-size: 25px;
   margin: 10px;
   text-align: center;
+  transition: 0.3s font-size linear;
+}
+li:hover {
+  font-size: 15px;
+  transition: 0.1s font-size linear;
 }
 .nav-footer {
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
+.nav {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
 h3 {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -35,12 +46,12 @@ h3 {
   max-width: 500px;
   margin: 2rem auto;
   border-radius: 5px;
-  height: 670px;
+  height: 700px;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
   width: 450px;
-  background: #a5ccd1;
+  background: #e7c5aa;
   text-align: center;
 }
 
@@ -93,7 +104,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5px;
-  background-color: #ffb67f;
+  background-color: #fe6337;
   color: azure;
 }
 
@@ -102,5 +113,8 @@ input[type="submit"]:hover {
   font-weight: bold;
 }
 body {
-  background: #ffb67f;
+  background: #fe6337;
+}
+a {
+  color: azure;
 }
