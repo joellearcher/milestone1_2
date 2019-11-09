@@ -1,0 +1,106 @@
+.spa-header {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.nav-header {
+  font-family: Helvetica, Arial, sans-serif;
+  justify-content: center;
+  padding: 10px;
+  background-color: #ffb67f;
+  color: white;
+  font-weight: bold;
+}
+li {
+  display: inline;
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+}
+.nav-footer {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.myform {
+  font-family: Helvetica, Arial, sans-serif;
+  max-width: 500px;
+  margin: 2rem auto;
+  border-radius: 5px;
+  height: 670px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  width: 450px;
+  background: #a5ccd1;
+  text-align: center;
+}
+
+.form-f-name {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-l-name {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-postcode  {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-p-word  {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-email {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-submit {
+  margin: 10px;
+  padding: 10px;
+}
+
+.gender  {
+  margin: 10px;
+  padding: 10px;
+}
+
+.age {
+  margin: 10px;
+  padding: 10px;
+}
+
+.c-gender {
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #ffb67f;
+  color: azure;
+}
+
+input[type="submit"]:hover {
+  background-color: #00bfff;
+  font-weight: bold;
+}
+body {
+  background: #ffb67f;
+}
