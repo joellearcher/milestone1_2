@@ -4,6 +4,7 @@
 h2 {
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
+  font-size: 10vmin;
 }
 h3 {
   font-family: Helvetica, Arial, sans-serif;
@@ -17,10 +18,11 @@ h3 {
   background-color: #fe6337;
   color: white;
   font-weight: bold;
+  text-decoration: none;
 }
 li {
   display: inline;
-  font-size: 25px;
+  font-size: calc(2vmin + 5px);
   margin: 10px;
   text-align: center;
   transition: 0.3s font-size linear;
@@ -36,6 +38,8 @@ li:hover {
 .nav {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
+  display: flex;
+  list-style-type: none;
 }
 
 h3 {
@@ -117,4 +121,10 @@ body {
 }
 a {
   color: azure;
+}
+@media screen and (max-width: 600px) and (min-width:600px) {
+  nav ul {
+    flex-direction: column;
+    list-style-type: none;
+  }
 }
