@@ -4,7 +4,7 @@
 h2 {
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
-  font-size: 10vmin;
+  font-size: 5vmin;
 }
 h3 {
   font-family: Helvetica, Arial, sans-serif;
@@ -122,9 +122,9 @@ body {
 a {
   color: azure;
 }
-@media screen and (max-width: 600px) and (min-width:600px) {
-  nav ul {
-    flex-direction: column;
-    list-style-type: none;
+@media only screen and (min-width: 600px) {
+  .myform {
+    display: block;
+    width: 100%;
   }
 }
