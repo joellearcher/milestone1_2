@@ -6,12 +6,21 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-image: url(../milestone1_2/homepic.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  background-size: 5000px;
 }
 /* header
 ======= */
 
 header {
-  margin-top: 1em;
+  margin-top: auto;
+  height: 40px;
+  background: #ee4540;
+  width: auto;
+  height: auto;
 }
 
 nav ul {
@@ -22,28 +31,29 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 3em;
+  margin: 1em;
+  font-size: 2.5rem;
+  display: flex;
 }
 
 nav a {
-  font-weight: 300;
+  font-weight: 100;
   text-decoration: none;
   text-transform: lowercase;
-  font-size: 2rem;
-  padding: 0.5em;
-  background: grey;
+  padding: 0.5rem;
+  background: #c72c41;
   color: white;
 }
 nav a:hover,
 nav a:focus {
   color: #ddd;
 }
-@media (min-width: 55rem) {
+
+@media (min-width: 600px) {
   nav a {
-    font-size: 1.7rem;
+    font-size: 0.5em;
   }
 }
-
 /* typography
 ====== */
 
@@ -58,20 +68,22 @@ h2 {
 .myform {
   max-width: 100%;
   height: auto;
-  font-size: 3rem;
+  width: auto;
+  font-size: 2.5rem;
   margin: 2rem;
-  border: solid;
   border-radius: 2rem;
   box-sizing: border-box;
-  background: orange;
+  background: rgba(147, 178, 184, 0.541);
+  align-content: center;
 }
+
 #l-name,
 #f-name,
 #c-gender,
 #email,
 #p-word,
 #form-submit {
-  width: 300px;
+  width: 250px;
   height: 60px;
   margin: 1rem;
 }
@@ -95,5 +107,21 @@ input[type="submit"] {
   font-weight: bold;
   padding: 1rem;
 }
+@media (min-width: 55rem) {
+  .myform,
+  h2 {
+    font-size: 2rem;
+  }
 
-/* responsiveness */
+  /* footer */
+
+  .nav-footer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1rem;
+  }
+  .nav-footer {
+    text-decoration: none;
+  }
+}
