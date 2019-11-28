@@ -1,17 +1,18 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
   }
   
-  body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-image: url(../milestone1_2/homepic.jpeg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: scroll;
-    background-size: 5000px;
-  }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url(../milestone1_2/wellbeing.jpeg);
+  background-repeat: no repeat;
+  background-position: top;
+  background-attachment: scroll;
+  background-size: 5000px;
+}
+
   /* header
   ======= */
   
