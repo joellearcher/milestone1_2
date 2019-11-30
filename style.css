@@ -15,9 +15,7 @@ body {
   background-attachment: scroll;
   background-size: 5000px;
 }
-/* header
-======= */
-
+/* header */
 header {
   margin-top: auto;
   height: 40px;
@@ -127,4 +125,14 @@ input[type="submit"] {
   .nav-footer {
     text-decoration: none;
   }
+}
+
+  /* footer */
+  
+.nav-footer {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1rem;
+  text-decoration: none;
 }
