@@ -130,5 +130,34 @@
         </ul>
       </nav>
     </footer>
+
+    <form id="new form">
+      <label for="Part 1">Form part 1</label>
+      <input type="number" min="1" id="number" />
+      <input id="submitButton" type="submit" />
+    </form>
+    <ul id="results"></ul>
+    <script>
+      const form = document.getElementById("new form");
+      const input = document.getElementById("number");
+      const submitButton = document.getElementById("submitButton");
+      const results = document.getElementById("results");
+      const submitHandler = function(event) {
+        // prevents form from reloading
+        event.preventDefault();
+        // cleans up results
+        results.innerHTML = "";
+        // populates results again
+        for (let i = 1; i <= input.value; i++) {
+          const newLi = document.createElement("li");
+          newLi.innerText = i;
+          results.append(newLi);
+        }
+        console.log(input.value);
+      };
+      submitButton.onclick = submitHandler;
+      // equivalent to
+      // submit.addEventListener("onclick", submitHandler)
+    </script>
   </body>
 </html>
