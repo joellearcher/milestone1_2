@@ -13,6 +13,10 @@ header {
   position: relative;
 }
 
+h1 {
+  text-align: center;
+}
+
 nav {
   position: absolute;
   display: flex;
@@ -55,8 +59,19 @@ li a {
 .addtobag {
   position: absolute;
   background-color: grey;
-  transition: all 5s ease-in-out;
+  transition: all 10s ease-in-out;
   opacity: 50;
   cursor: pointer;
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+}
+#checkout {
+  position: static;
 }
